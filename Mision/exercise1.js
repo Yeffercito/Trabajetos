@@ -5,7 +5,8 @@ do {
     )
   );
   switch (ingres) {
-    case 1:
+    case 1: 
+      let nombre=(prompt("Ingresar el nombre del estudiante"))
       let nota1 = parseFloat(prompt("Ingresar nota del primer examen \n "));
       if (nota1 < 0 || nota1 > 5) {
         alert("Ingrese un numero valido");
@@ -53,35 +54,35 @@ do {
                     switch (notafinal >= 0 || notafinal <= 5) {
                       case notafinal >= 4.7 && notafinal <= 5:
                         console.log(
-                          "El estudiante paso la materia con una nota de " +
+                          "El estudiante "+nombre+" paso la materia con una nota de " +
                             notafinal +
                             " Con un nivel superior"
                         );
                         break;
                       case notafinal >= 4.0 && notafinal <= 4.6:
                         console.log(
-                          "El estudiante paso la materia con una nota de " +
+                          "El estudiante "+nombre+" paso la materia con una nota de " +
                             notafinal +
                             " Con un nivel alto"
                         );
                         break;
                       case notafinal >= 3.0 && notafinal <= 3.9:
                         console.log(
-                          "El estudiante paso la materia con una nota de " +
+                          "El estudiante "+nombre+" paso la materia con una nota de " +
                             notafinal +
                             " Con un nivel basico"
                         );
                         break;
                       case notafinal >= 2.0 && notafinal <= 2.9:
                         console.log(
-                          "El estudiante paso la materia con una nota de " +
+                          "El estudiante "+nombre+" paso la materia con una nota de " +
                             notafinal +
                             " Con un nivel bajo"
                         );
                         break;
                       case notafinal >= 0 && notafinal <= 1.9:
                         console.log(
-                          "El estudiante paso la materia con una nota de " +
+                          "El estudiante "+nombre+" paso la materia con una nota de " +
                             notafinal +
                             " Con un nivel muy bajo"
                         );
