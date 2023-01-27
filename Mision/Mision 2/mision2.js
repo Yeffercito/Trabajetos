@@ -48,7 +48,7 @@ do {
               cant_samsung = parseInt(
                 prompt("Ingresar cantidad actualizada de samsungs "+"\nActualmente tenemos "+cant_samsung )
               );
-              if (cant_samsung < 0) {
+              if (cant_samsung < 0 || isNaN(cant_samsung)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_samsung < 0);
@@ -59,7 +59,7 @@ do {
               cant_iphone = parseInt(
                 prompt("Ingresar cantidad actualizada de iphone "+"\nActualmente tenemos "+cant_iphone)
               );
-              if (cant_iphone < 0) {
+              if (cant_iphone < 0 || isNaN(cant_iphone)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_iphone < 0);
@@ -69,7 +69,7 @@ do {
               cant_xiaomi = parseInt(
                 prompt("Ingresar cantidad actualizada de Xiaomi "+"\nActualmente tenemos "+cant_xiaomi)
               );
-              if (cant_xiaomi < 0) {
+              if (cant_xiaomi < 0 || isNaN(cant_xiaomi)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_xiaomi < 0);
@@ -79,7 +79,7 @@ do {
               cant_motorola = parseInt(
                 prompt("Ingresar cantidad actualizada de motorola "+"\nActualmente tenemos "+cant_motorola)
               );
-              if (cant_motorola < 0) {
+              if (cant_motorola < 0 || isNaN(cant_motorola)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_motorola < 0);
@@ -89,7 +89,7 @@ do {
               cant_huawei = parseInt(
                 prompt("Ingresar cantidad actualizada de Huawei "+"\nActualmente tenemos "+cant_huawei)
               );
-              if (cant_huawei < 0) {
+              if (cant_huawei < 0 || isNaN(cant_huawei)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_huawei < 0);
@@ -99,7 +99,7 @@ do {
               cant_appo = parseInt(
                 prompt("Ingresar cantidad actualizada de Appo "+"\nActualmente tenemos "+cant_appo)
               );
-              if (cant_appo < 0) {
+              if (cant_appo < 0|| isNaN(cant_appo)) {
                 console.log("Ingrese un valor superior o igual a cero");
               }
             } while (cant_appo < 0);
@@ -132,7 +132,7 @@ do {
                     cant_samsung
                 )
               );
-              if (vent_samsung < 0) {
+              if (vent_samsung < 0 || isNaN(vent_samsung)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_samsung === 0) {
@@ -159,7 +159,7 @@ do {
                     cant_iphone
                 )
               );
-              if (vent_iphone < 0) {
+              if (vent_iphone < 0 || isNaN(vent_iphone)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_iphone === 0) {
@@ -187,7 +187,7 @@ do {
                     cant_xiaomi
                 )
               );
-              if (vent_xiaomi < 0) {
+              if (vent_xiaomi < 0 || isNaN(vent_xiaomi)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_xiaomi === 0) {
@@ -215,7 +215,7 @@ do {
                     cant_motorola
                 )
               );
-              if (vent_motorola < 0) {
+              if (vent_motorola < 0 || isNaN(vent_motorola)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_motorola === 0) {
@@ -243,7 +243,7 @@ do {
                     cant_huawei
                 )
               );
-              if (vent_huawei < 0) {
+              if (vent_huawei < 0 || isNaN(vent_huawei)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_huawei === 0) {
@@ -271,7 +271,7 @@ do {
                     cant_appo
                 )
               );
-              if (vent_appo < 0) {
+              if (vent_appo < 0 || isNaN(vent_appo)) {
                 console.log("Ingrese un valor superior o igual a cero");
               } else {
                 if (cant_appo === 0) {
